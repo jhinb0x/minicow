@@ -8,9 +8,9 @@ export default function Header() {
   return (
     <View style={styles.container}>
         <View style={styles.container}>
-        <Text style={style.username}>Kevin Mitnik</Text>
+        <Text style={styles.username}>Kevin Mitnik</Text>
 
-        <TouchableOpacity activeOpacity={0.9} style={style.buttonUser}>
+        <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
             <Feather name="user" size={27} color="#FFF"/>
         </TouchableOpacity>
         </View>
